@@ -1,5 +1,3 @@
-Absolutely. Here is a **complete, professional GitHub README.md** for your AI Content Assistant project. You can copy it directly into a file named `README.md` in your repository.
-
 # ✨ AI Content Assistant
 
 An AI-powered content generation assistant built with **Python, Streamlit, and Groq**. It helps users quickly create platform-specific social media content by selecting the content type, platform, topic, target audience, and tone.
