@@ -2,7 +2,7 @@
 
 An AI-powered content generation assistant built with **Python, Streamlit, and Groq**. It helps users quickly create platform-specific social media content by selecting the content type, platform, topic, target audience, and tone.
 
-The application generates a **complete social media post, caption, and relevant hashtags** using a Groq-hosted Llama model.
+The application generates a **complete social media post, caption, and relevant hashtags** using the Groq-hosted **OpenAI GPT-OSS 120B** model.
 
 ---
 
@@ -25,12 +25,12 @@ The application generates a **complete social media post, caption, and relevant 
 
 ## 🛠️ Technologies Used
 
-| Technology           | Purpose                          |
-| -------------------- | -------------------------------- |
-| Python               | Application programming language |
-| Streamlit            | Web application UI               |
-| Groq                 | AI content generation            |
-| Llama 3.1 8B Instant | AI language model                |
+| Technology          | Purpose                          |
+| ------------------- | -------------------------------- |
+| Python              | Application programming language |
+| Streamlit           | Web application UI               |
+| Groq                | AI content generation            |
+| OpenAI GPT-OSS 120B | AI language model                |
 
 ---
 
@@ -82,6 +82,8 @@ Generate Content
   ↓
 Groq AI
   ↓
+OpenAI GPT-OSS 120B
+  ↓
 Complete Post
   +
 Caption
@@ -98,7 +100,7 @@ Download Content
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/AI-Content-Assistant.git
+git clone https://github.com/Maryam271/AI-Content-Assistant.git
 ```
 
 Move into the project directory:
@@ -153,6 +155,9 @@ Inside `secrets.toml`, add:
 ```toml
 GROQ_API_KEY = "your_groq_api_key_here"
 ```
+
+**⚠️ Important:** Never upload your `secrets.toml` file or API key to GitHub.
+
 ---
 
 ## ▶️ Run the Application
@@ -177,20 +182,15 @@ http://localhost:8501
 
 ### User Input
 
-**Content Type:**
-Educational Post
+**Content Type:** Educational Post
 
-**Platform:**
-LinkedIn
+**Platform:** LinkedIn
 
-**Topic:**
-Importance of AI skills for university students
+**Topic:** Importance of AI skills for university students
 
-**Target Audience:**
-University students
+**Target Audience:** University students
 
-**Tone:**
-Professional
+**Tone:** Professional
 
 ### Generated Output
 
@@ -230,9 +230,6 @@ Possible future features include:
 
 ---
 
-
 ## 📄 License
 
 This project is open-source and available for educational and personal use.
-
-
